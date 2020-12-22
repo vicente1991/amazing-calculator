@@ -16,9 +16,13 @@ public class Principal {
 
 		        int opcion = leerEnteroEntrada();
 
+		         int num1,num2; 
 
 		        switch (opcion) {
-		            case 1: //Sumar. Debes leer dos numeros enteros de entrada e imprimir su suma
+		            case 1: System.out.println("Diga primer numero a sumar");
+		                    
+		                    System.out.println("Diga segundo numero a sumar");
+		            
 		                    break;
 		            case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
 		                    break;
