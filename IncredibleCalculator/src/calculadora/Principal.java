@@ -19,12 +19,12 @@ public class Principal {
 		         int num1,num2; 
 
 		        switch (opcion) {
-		            case 1: System.out.println("Diga primer numero a sumar");
-		                    
-		                    System.out.println("Diga segundo numero a sumar");
+		            case 1: 
 		            
 		                    break;
-		            case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
+		            case 2: System.out.println("Diga primer numero de resta");
+		            
+		                    System.out.println("Diga segundo numero de entrada");
 		                    break;
 		            case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
 		                    break;
